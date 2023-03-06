@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Translator</title>
+</head>
+<body>
+
+        <div class="translation">
+            <div class="trans-elements">
+                <div class="main-text">
+                    <textarea class = 'text' name="" id="left-area" cols="30" rows="10" placeholder="Enter Your Text"></textarea>
+                    <textarea  readonly class = 'text'name="" id="right-area" cols="30" rows="10"></textarea>
+                </div>
+    
+                <div class="toolbar">
+    
+                    <span id = 'left-audio'><i id="audio" class="fa-solid fa-volume-high"></i></span>
+                    <span id = 'left-copy'><i id="copy" class="fa-solid fa-copy"></i></span>
+                    <div class="vl">
+                    </div>
+                    <select name="" id="left-language">
+                      
+                    </select>
+                    
+                    <span id = 'switch'><i class="fa-solid fa-arrow-right-arrow-left"></i></span>
+                    <select name="" id="right-language">
+                
+                    </select>
+                    <div class="vl">
+                    </div>
+                
+                    <span id = 'right-audio'><i id="audio" class="fa-solid fa-volume-high"></i></span>
+                    <span id = 'right-copy'><i id="copy" class="fa-solid fa-copy"></i></span>           
+                </div>
+            </div>
+            <button id = 'translate'>Translate Text</button>
+        </div>
+        
+</body>
+<script src="countries.js"></script>
+<script src = 'main.js'></script>
+
+</html>

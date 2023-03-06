@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Translate Me",
+    "action": {
+        "default_popup": "index.html"   
+    } ,
+    "permissions": [
+        "webNavigation",
+        "storage",
+        "clipboardWrite",
+        "clipboardRead"
+      ]
+}
